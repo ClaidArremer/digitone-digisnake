@@ -1,4 +1,8 @@
-# DIGISNAKE
+# DIGISNAKE for Digitone
+
+**This is the Digitone version.** For the Elektron Digitakt mk1, use
+[DIGISNAKE for Digitakt](https://github.com/ClaidArremer/digitakt-digisnake) instead: the files here do not run on a
+Digitakt, and the Digitakt's do not run on a Digitone.
 
 A Cartesian step sequencer for the **Elektron Digitone mk1** (and Digitone Keys), after Maxime Dangles'
 MDD Snake and Make Noise's René, as an [elekloader](https://github.com/irpina/elekloader) mod (id
@@ -8,13 +12,7 @@ four MIDI tracks, for external gear.
 
 By Robbie (designed and tested on a Digitone mk1, OS 1.44). GPL-2.0-or-later.
 
-**On a Digitakt mk1?** DIGISNAKE for the Digitakt is in [`digitakt/`](digitakt/README.md).
-
-
-
-
-
-> Unofficial and unsupported. Flashing modified firmware is at your own risk; the stock OS always
+> Unofficial and unsupported. Flashing modified firmware is at your own risk; the stock Digitone OS always
 > recovers the unit (send the stock .syx from the boot menu).
 
 ## What you need
@@ -97,10 +95,10 @@ random run.
 
 ## With DIRECT JUMP
 
-With [DIRECT JUMP](https://github.com/ClaidArremer/directjump) 1.4 or later in the build, a pattern started by
+With [DIRECT JUMP](https://github.com/ClaidArremer/digitone-directjump) 1.4 or later in the build, a pattern started by
 its START ON BAR (from step 1 on the next bar line, or the playing pattern relaunched on the beat) starts every
 snake from the beginning of its path too, so the whole groove relaunches together. A legato jump leaves the
-snakes walking. Without DIRECT JUMP nothing changes. Tested on a Digitone mk1 (OS 1.44) with DIRECT JUMP 1.5.
+snakes walking. Without DIRECT JUMP nothing changes. With DIRECT JUMP and [PUMP for Digitone](https://github.com/ClaidArremer/digitone-pump) in one build, use core-dn1 4.1.1 (see DIRECT JUMP's README). Tested on a Digitone mk1 (OS 1.44) with DIRECT JUMP 1.5.
 
 ## Changes
 
