@@ -8,6 +8,8 @@ four MIDI tracks, for external gear.
 
 By Robbie (designed and tested on a Digitone mk1, OS 1.44). GPL-2.0-or-later.
 
+**On a Digitakt mk1?** DIGISNAKE for the Digitakt is in [`digitakt/`](digitakt/README.md).
+
 
 
 
