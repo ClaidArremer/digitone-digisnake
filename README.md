@@ -12,6 +12,11 @@ four MIDI tracks, for external gear.
 
 By Robbie (designed and tested on a Digitone mk1, OS 1.44). GPL-2.0-or-later.
 
+**DIGISNAKE carries on in [DIGISEQ for Digitone](https://github.com/ClaidArremer/digitone-digiseq)**, as its SNAKE
+type, unchanged, next to a second sequencer type, 185 (a stage sequencer after ML-185). Each track picks its own
+type there, and DIGISNAKE projects load into DIGISEQ as they were. Use one or the other, not both: DIGISEQ
+replaces DIGISNAKE in a build. DIGISNAKE 1.3 stays here for builds without DIGISEQ.
+
 > Unofficial and unsupported. Flashing modified firmware is at your own risk; the stock Digitone OS always
 > recovers the unit (send the stock .syx from the boot menu).
 
